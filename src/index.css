@@ -1,0 +1,212 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap');
+:root
+{
+    --main-color:#0aad0a;
+    --light-color:#f0f3f2;
+    --shadow: rgba(145,158,171,.2) 0px 2px 4px -1px,rgba(145,158,171,.14) 0px 4px 5px 0px,rgba(145,158,171,.12) 0px 1px 10px 0px;
+    --font-family:'Encode Sans Expanded', sans-serif;
+    --rating-color:#ffc908;
+}
+
+body{
+    font-family: var(--font-family) !important;
+    overflow-x: hidden ;
+    text-transform: capitalize;
+
+}
+.rating-color
+{
+    color: var(--rating-color);
+}
+.cursor-pointer
+{
+    cursor: pointer;
+}
+a , a:hover{
+    color: black !important;
+    text-decoration: none !important;
+}
+.product:hover
+{
+    box-shadow: var(--shadow);
+    border: solid 1px var(--main-color);
+}
+.product .btn 
+{
+    transition: transform 1s , opacity 1s;
+    transform: translateY(100%);
+    opacity: 0;
+}
+.product:hover .btn 
+{
+    opacity: 1;
+    transform: translateY(0%);
+    color: var(--light-color);
+
+
+}
+.font-sm
+{
+    font-size: 14px;
+}
+.text-main
+{
+    color: var(--main-color);
+}
+
+.text-main-light
+{
+    color: var(--light-color);
+}
+.bg-main
+{
+    background-color: var(--main-color) !important;
+}
+.bg-main-light 
+{
+    background-color: var(--light-color) !important;
+}
+
+
+
+.loading{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Footer {
+    background-color: rgba(177, 163, 163, 0.477);
+}
+
+
+.log {
+    min-height: 80vh;
+}
+
+
+.brdr{
+    border: 1px solid var(--main-color);
+}
+
+
+.BOR{
+    border: 1px solid var(--main-color);
+    border-bottom-right-radius: 19px ;
+    border-bottom-left-radius: 19px ;
+}
+
+
+.brddr{
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+}
+
+.carttt{
+    min-height: 70vh;
+}
+
+
+.back {
+    background-color: rgba(177, 163, 163, 0.477);
+    min-height: 70vh;
+    width: 85%;
+}
+
+.wish{
+    min-height: 80vh;
+}
+
+
+.inputborderbottem{
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.338);
+    margin: 0;
+}
+
+
+.heightClass{
+    min-height: 80vh;
+}
+
+
+.brndsDetails{
+    background-color: rgba(177, 163, 163, 0.477);
+}
+
+
+.pos{
+    position: absolute;
+    top: 0;
+    left: 105%;
+    transition: all 1s;
+}
+
+.wish:hover .pos {
+    top: 0;
+    left: 86%;
+}
+
+
+.po{
+    position: absolute;
+    top: 0;
+    left: 105%;
+    transition: all 1s;
+}
+
+
+
+.pro:hover .po {
+    top: 0;
+    left: 86%;
+}
+
+
+
+
+.shipping{
+    min-height: 80vh;
+}
+
+
+.laymarg{
+    margin-top: 80px;
+}
+
+
+.visalogo{
+    width: 50px;
+    height: 30px;
+}
+
+.logos {
+    width: 80px;
+    height: 35px;
+}
+
+
+
